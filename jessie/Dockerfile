@@ -118,4 +118,4 @@ RUN set -ex \
 
 
 
-CMD [ "lua -l luapbintf" ]
+CMD [ "lua", "-l", "luapbintf" ]
