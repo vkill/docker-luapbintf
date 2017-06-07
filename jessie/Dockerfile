@@ -32,7 +32,7 @@ RUN set -ex \
   && cd /usr/src/lua \
   \
   && make linux test MYCFLAGS="-x c++" CC="g++" \
-  && make linux install MYCFLAGS="-x c++" CC="g++" \
+  && make linux install \
   \
   && cd / \
   && rm -r /usr/src/lua
